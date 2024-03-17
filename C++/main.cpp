@@ -10,7 +10,6 @@ int main() {
     setlocale(LC_ALL, "Russian");
 
     int choice;
-    float s, p, d;
 
     cout << "Rectangle - 1" << endl;
     cout << "Triangle - 2" << endl;
@@ -19,6 +18,8 @@ int main() {
 
     if (choice == 1) {
         float a, b;
+        float s, p, d;
+
         cin >> a >> b;
 
         s = square(a, b);
