@@ -28,14 +28,14 @@ func main(){
 		fmt.Println("Type 3 sides of triangle:")
 		fmt.Scan(&trian_side1, &trian_side2, &trian_side3)
 		
-		var perim float64 = trian.Perimeter(trian_side1, trian_side2, trian_side3)
-		var squ float64 = trian.Area(trian_side1, trian_side2, trian_side3, perim)
-		var rb bool = trian.Equilateral(trian_side1, trian_side2, trian_side3)
-		
 		if trian.Verification(trian_side1, trian_side2, trian_side3){
+			var perim float64 = trian.Perimeter(trian_side1, trian_side2, trian_side3)
+			var squ float64 = trian.Area(trian_side1, trian_side2, trian_side3, perim)
+			var rb bool = trian.Equilateral(trian_side1, trian_side2, trian_side3)
+			
 			fmt.Println("Area -", squ, "Perimiter -", perim, "Equilateral -", rb)
 		}else{
-			fmt.Println("This is not riangle")}
+			fmt.Println("This is not triangle")}
 	}else{
 		fmt.Println("What is this")}
 }
