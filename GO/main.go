@@ -35,7 +35,7 @@ func main(){
 		if trian.Verification(trian_side1, trian_side2, trian_side3){
 			fmt.Println("Area -", squ, "Perimiter -", perim, "Equilateral -", rb)
 		}else{
-			fmt.Println("This is not riangle")}
+			fmt.Println("This is not triangle")}
 	}else{
 		fmt.Println("What is this")}
 }
