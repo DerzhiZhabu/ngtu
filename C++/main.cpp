@@ -14,7 +14,7 @@ int main() {
     cout << "Rectangle - 1" << endl;
     cout << "Triangle - 2" << endl;
 
-    cin >> choice;
+    cin >> choice; // stdio in choise to choose figure
 
     if (choice == 1) {
         float a, b;
