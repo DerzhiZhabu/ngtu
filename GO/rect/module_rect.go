@@ -7,7 +7,7 @@ func Square(x, y float64) float64{
 	return x * y}
 	
 func Perimeter(x, y float64) float64{
-	return (x + y) * 2} \\ returning perim
+	return (x + y) * 2}
 	
 func Diagon(x, y float64) float64{
 	var z float64
