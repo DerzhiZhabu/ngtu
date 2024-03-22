@@ -10,7 +10,7 @@ bool verification(float a, float b, float c) {
 float perimeter(float a, float b, float c) {
     float p = a + b + c;
 
-    return p;
+    return p; // perimetr
 }
 
 float area(float a, float b, float c, float p) {
